@@ -1,0 +1,867 @@
+2021/01/22 11:24:32 -> author: Min.Hsieh , message: v1.04.06
+2021/01/22 10:58:46 -> author: Min.Hsieh , message: Fix Bug 11433 - 任選一台已離線的VIVOTEK Tablet執行Force sync動作仍顯示Force sync成功的訊息
+2021/01/22 09:43:13 -> author: Min.Hsieh , message: Fix Bug 11434 - 將已連線的VIVOTEK Tablet的網路斷線，重新整理FRSM Web頁面仍顯示與此台Tablet連線中
+2021/01/22 09:42:41 -> author: Min.Hsieh , message: Upgrade Db helper update user default email
+2021/01/21 11:02:19 -> author: Min.Hsieh , message: Fix Bug 11435 - Auto Restart的時間寫回去Tablet顯示錯誤 ex. Web設定18:00:00，實際Tablet顯示10:00
+2021/01/20 16:08:07 -> author: Min.Hsieh , message: v1.04.05
+2021/01/20 14:07:19 -> author: Min.Hsieh , message: Upgrade Setting FRS Try Enroll Face cgi add resize image
+2021/01/14 17:42:43 -> author: Min.Hsieh , message: Upgrade Report Person Access cgi fix query command error
+2021/01/14 16:10:31 -> author: Min.Hsieh , message: Upgrade Report Person model add tags attr
+2021/01/14 15:40:43 -> author: Min.Hsieh , message: Upgrade Person Delete action add not sync to setting frs flag
+2021/01/14 14:36:22 -> author: Min.Hsieh , message: Upgrade Person Staff and Visitor model add tags attr
+2021/01/14 08:37:45 -> author: Min.Hsieh , message: Upgrade Source FRS service remove initialization when setting frs ready
+2021/01/14 08:37:03 -> author: Min.Hsieh , message: Upgrade frs service remove person group cache
+2021/01/13 17:51:04 -> author: Min.Hsieh , message: Upgrade Peron Tag model add is default attr
+2021/01/13 09:06:01 -> author: Min.Hsieh , message: frameworkversion v2.03.02
+2021/01/13 09:05:34 -> author: Min.Hsieh , message: Upgrade package
+2020/12/28 17:49:56 -> author: Min.Hsieh , message: v1.04.04
+2020/12/28 16:09:45 -> author: Min.Hsieh , message: Upgrade Person cgi udpate notify add remove person when card was difference
+2020/12/28 14:59:10 -> author: Min.Hsieh , message: Upgrade Source service update visitor out delete time
+2020/12/28 14:58:53 -> author: Min.Hsieh , message: Upgrade 3rd Vivotek Record cgi update visitor out delete time
+2020/12/28 14:24:32 -> author: Min.Hsieh , message: Fix Bug 11412 - 當無權限人員被VIVOTEK Tablet辨識到無權限人員時Investigation的Monitoring or Review顯示此人員為Access Granted
+2020/12/28 13:32:28 -> author: Min.Hsieh , message: Fix Bug 11411 - 編輯或是新增Person or Visitor時使用已被刪除的卡號會儲存失敗
+2020/12/25 16:40:48 -> author: Min.Hsieh , message: Upgrade Mqtt cgi add wait service done
+2020/12/25 15:23:38 -> author: Min.Hsieh , message: v1.04.03
+2020/12/25 15:23:01 -> author: Min.Hsieh , message: Merge branch 'feature/20201113' into develop
+2020/12/25 15:00:30 -> author: Min.Hsieh , message: Upgrade Source Vivotek Tablet model
+2020/12/25 14:43:42 -> author: Min.Hsieh , message: Upgrade 3rd Vivotek Record cgi add save report
+2020/12/25 10:34:46 -> author: Min.Hsieh , message: Upgrade 3rd Vivotek cgi update print request function
+2020/12/25 09:57:56 -> author: Min.Hsieh , message: Upgrade 3rd Vivotek cgi udpate post size limit
+2020/12/25 09:28:31 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/20201113
+2020/12/25 09:26:16 -> author: Min.Hsieh , message: v1.04.02
+2020/12/25 09:22:28 -> author: Min.Hsieh , message: Merge branch 'feature/20201113' into develop
+2020/12/25 09:14:21 -> author: Min.Hsieh , message: Fix Bug 11385 - TA權限看到非自己所屬Company所在的Location的Door
+2020/12/24 23:05:49 -> author: Min.Hsieh , message: Update Source Person action merge sync and clear into resync
+2020/12/24 22:49:55 -> author: Min.Hsieh , message: Upgrade Mqtt cgi add close type and add auto sync person after group/user subscription
+2020/12/24 22:25:45 -> author: Min.Hsieh , message: Upgrade Mqtt cgi add disconnect handel
+2020/12/24 11:28:51 -> author: Min.Hsieh , message: Rename Sense Pass to Vivotek
+2020/12/24 10:20:13 -> author: Min.Hsieh , message: Upgrade Mqtt cgi remove sync group before force sync
+2020/12/24 10:18:21 -> author: Min.Hsieh , message: Upgrade Mqtt cgi udpate udpated date define
+2020/12/24 10:10:01 -> author: Min.Hsieh , message: Upgrade 3rd Sense Pass User Info and Image cgi add timestamp in image id
+2020/12/24 10:06:06 -> author: Min.Hsieh , message: Upgrade Source Sense Pass Tablet cgi remove udpate connect status when put
+2020/12/23 18:55:47 -> author: Min.Hsieh , message: Upgrade Mqtt cgi add person insert and delete type
+2020/12/23 18:08:11 -> author: Min.Hsieh , message: Upgrade Sense pass Tablet Person Sync action add permission check
+2020/12/23 18:03:02 -> author: Min.Hsieh , message: Upgrade Mqtt cgi add auto subscript user topic
+2020/12/23 17:59:27 -> author: Min.Hsieh , message: Upgrade 3rd Sense Pass User Info cgi
+2020/12/23 17:45:50 -> author: Min.Hsieh , message: Upgrade 3rd Sense Pass Image cgi
+2020/12/23 14:40:48 -> author: Min.Hsieh , message: Upgrade Sense pass Tablet Person Sync action remove has permission check
+2020/12/23 14:06:03 -> author: Min.Hsieh , message: Upgrade project unite error message format of hikvision tablet
+2020/12/23 14:03:35 -> author: Min.Hsieh , message: Upgrade Mqtt cgi add force sync type
+2020/12/23 09:44:52 -> author: Min.Hsieh , message: Add Sense Pass Tablet Person action and cgi
+2020/12/23 09:41:03 -> author: Min.Hsieh , message: Add Source Sense Pass Tablet service
+2020/12/22 17:26:49 -> author: Min.Hsieh , message: Upgrade Mqtt cgi update to use mqtt-packet package
+2020/12/22 14:29:16 -> author: Min.Hsieh , message: Add mqtt-packet package
+2020/12/22 13:43:59 -> author: Min.Hsieh , message: Upgrade Mqtt cgi sort out code
+2020/12/21 13:49:10 -> author: Min.Hsieh , message: Upgrade Access Area cgi add sense pass type
+2020/12/21 13:23:14 -> author: Min.Hsieh , message: Upgrade Mqtt cgi add device/group topic response
+2020/12/21 11:29:39 -> author: Min.Hsieh , message: Upgrade 3rd Sense Pass Device Groups cgi add response default group
+2020/12/21 10:11:09 -> author: Min.Hsieh , message: Upgrade Mqtt cgi update log
+2020/12/18 19:59:35 -> author: Min.Hsieh , message: Upgrade Source Sense Pass Tablet model add auth token attr
+2020/12/18 19:29:27 -> author: Min.Hsieh , message: Upgrade Mqtt cgi add publish config
+2020/12/18 18:47:02 -> author: Min.Hsieh , message: Upgrade Source Sense Pass Tablet model fix language enum code error
+2020/12/18 17:12:06 -> author: Min.Hsieh , message: Upgrade Mqtt cgi add response when receive message
+2020/12/17 18:03:45 -> author: Min.Hsieh , message: Upgrade 3rd Sense Pass cgi fix typo
+2020/12/17 18:03:13 -> author: Min.Hsieh , message: Upgrade 3rd Sense Pass cgi udpate base print request function
+2020/12/17 17:44:31 -> author: Min.Hsieh , message: Upgrade 3rd Sense Pass Config cgi
+2020/12/17 17:44:04 -> author: Min.Hsieh , message: Upgrade 3rd Sense Pass cgi update base format
+2020/12/17 17:05:23 -> author: Min.Hsieh , message: Upgrade 3rd Sense Pass cgi update base function
+2020/12/17 16:53:47 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/20201113
+2020/12/17 16:50:50 -> author: Min.Hsieh , message: v1.04.01
+2020/12/17 16:50:36 -> author: Min.Hsieh , message: Upgrade package.json fix hikvision module init error
+2020/12/17 13:58:15 -> author: Min.Hsieh , message: Upgrade 3rd Sense Pass Device Login cgi remove unused code
+2020/12/17 13:51:25 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/20201113
+2020/12/17 13:49:31 -> author: Min.Hsieh , message: v1.04.00
+2020/12/17 13:47:58 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v2.03.01
+2020/12/17 13:34:54 -> author: Min.Hsieh , message: Merge branch 'feature/20201113' into develop
+2020/12/17 11:43:47 -> author: Min.Hsieh , message: Merge branch 'feature/20201113_add_sense-pass_tablet' into feature/20201113
+2020/12/17 11:43:34 -> author: Min.Hsieh , message: Rename Mqtt cgi
+2020/12/17 11:43:11 -> author: Min.Hsieh , message: Upgrade 3rd Sense Pass Device Login cgi add use tablet data
+2020/12/17 11:42:48 -> author: Min.Hsieh , message: Upgrade 3rd Sense Pass Register cgi
+2020/12/17 11:42:36 -> author: Min.Hsieh , message: Upgrade 3rd Sense Pass Rsapub cgi add use default key
+2020/12/17 10:07:14 -> author: Min.Hsieh , message: Upgrade Source Sense Pass Tablet model add rsa key
+2020/12/17 09:51:13 -> author: Min.Hsieh , message: Upgrade Source All cgi add type of sense pass tablet
+2020/12/17 09:16:50 -> author: Min.Hsieh , message: Add Source Sense Pass Tablet cgi
+2020/12/16 16:45:34 -> author: Min.Hsieh , message: Upgrade License system add count sense pass tablet
+2020/12/16 16:45:10 -> author: Min.Hsieh , message: Rename License Source FR Tablet service
+2020/12/16 16:35:40 -> author: Min.Hsieh , message: Add Source Sense Pass Tablet model
+2020/12/16 10:04:23 -> author: Min.Hsieh , message: Merge branch 'feature/20201113' into feature/20201113_add_sense-pass_tablet
+2020/12/16 09:52:12 -> author: Min.Hsieh , message: Upgrade Source HikTablet and Source FRS Camera model update pointer to string
+2020/12/15 14:17:33 -> author: Min.Hsieh , message: Add send success response message when webscoket cgi
+2020/12/14 15:25:06 -> author: Min.Hsieh , message: Merge branch 'feature/20201113' into feature/20201113_add_sense-pass_tablet
+2020/12/14 15:24:46 -> author: Min.Hsieh , message: Upgrade Report Person cgi udpate offset time format
+2020/12/14 14:46:30 -> author: Min.Hsieh , message: Merge branch 'feature/20201113_part_2' into feature/20201113
+2020/12/14 14:46:18 -> author: Min.Hsieh , message: Rename Report Person Summary cgi to Report Person Access
+2020/12/14 09:43:22 -> author: Min.Hsieh , message: Merge branch 'feature/20201113' into feature/20201113_add_sense-pass_tablet
+2020/12/14 09:42:40 -> author: Min.Hsieh , message: Merge branch 'feature/20201113_part_2' into feature/20201113
+2020/12/12 00:45:13 -> author: Min.Hsieh , message: Remove Report Person Summary mdoel
+2020/12/11 23:27:41 -> author: Min.Hsieh , message: Upgrade Report Person Attendance cgi add default filter
+2020/12/11 23:17:07 -> author: Min.Hsieh , message: Remove Report LIve Person model
+2020/12/11 23:09:02 -> author: Min.Hsieh , message: Remove Report Person Summary action
+2020/12/11 23:04:06 -> author: Min.Hsieh , message: Add Report Person Attendance cgi
+2020/12/11 16:48:44 -> author: Min.Hsieh , message: upgrade Access Area model add schedule when level was public
+2020/12/11 15:13:43 -> author: Min.Hsieh , message: Upgrade Access Area model update pointer to string
+2020/12/11 11:35:56 -> author: Min.Hsieh , message: Upgrade Access Schedule cgi udpate use permission
+2020/12/11 11:12:06 -> author: Min.Hsieh , message: Upgrade Access Schedule model update pointer to string
+2020/12/11 09:33:40 -> author: Min.Hsieh , message: Merge branch 'feature/20201113' into feature/20201113_add_sense-pass_tablet
+2020/12/10 17:52:17 -> author: Min.Hsieh , message: Upgrade Report Person cgi add get filter
+2020/12/10 17:45:46 -> author: Min.Hsieh , message: Upgrade Source Hik Tablet service add attendanve status in report ext
+2020/12/10 17:40:01 -> author: Min.Hsieh , message: Upgrade Report Person model add ext attr
+2020/12/10 16:39:18 -> author: Min.Hsieh , message: Upgrade server-service-hikvision package
+2020/12/10 15:45:27 -> author: Min.Hsieh , message: Upgrade Access Group cgi udpate schedule to option
+2020/12/10 14:59:56 -> author: Min.Hsieh , message: Upgrade Access Group model update pointer to string
+2020/12/10 13:40:20 -> author: Min.Hsieh , message: Add Source FRS Detail cgi
+2020/12/10 10:39:49 -> author: Min.Hsieh , message: Upgrade Source FRS cgi add unbinding
+2020/12/10 10:39:25 -> author: Min.Hsieh , message: Upgrade Setting FRS cgi add unbinding
+2020/12/10 09:26:53 -> author: Min.Hsieh , message: Upgrade Person Visitor cgi add get filter
+2020/12/10 09:26:40 -> author: Min.Hsieh , message: Upgrade Person Staff cgi add get filter
+2020/12/09 18:20:31 -> author: Min.Hsieh , message: Upgrade server-service-edge package
+2020/12/09 17:09:36 -> author: Min.Hsieh , message: Add Expired Event service
+2020/12/09 16:21:42 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/20201113
+2020/12/08 14:35:37 -> author: Min.Hsieh , message: Add Expired Log service
+2020/12/08 14:32:19 -> author: Min.Hsieh , message: Upgrade User Web Login cgi add save event when login fail
+2020/12/08 14:06:09 -> author: Min.Hsieh , message: Add 3rd Sense Pass cgi
+2020/12/04 15:05:39 -> author: Min.Hsieh , message: Upgrade Data Center system update oled default value
+2020/12/04 15:05:28 -> author: Min.Hsieh , message: Upgrade Data Center system update frs default value
+2020/12/04 15:05:19 -> author: Min.Hsieh , message: Upgrade Data Center system update email default value
+2020/12/01 16:40:38 -> author: Min.Hsieh , message: Upgrade License Source service udpate use license system
+2020/12/01 16:28:20 -> author: Min.Hsieh , message: Upgrade Report Person model add person type enum
+2020/12/01 16:18:39 -> author: Min.Hsieh , message: Upgrade Report Person model add entry status enum
+2020/12/01 16:04:52 -> author: Min.Hsieh , message: Upgrade Event model add type enum
+2020/12/01 15:34:53 -> author: Min.Hsieh , message: Upgrade Person Visitor model add entry mode enum
+2020/12/01 15:23:50 -> author: Min.Hsieh , message: Upgrade Access Area model add access area level enum
+2020/12/01 11:49:19 -> author: Min.Hsieh , message: Merge branch 'feature/frameworkversion_MinExpansion_v2.03.00' into develop
+2020/12/01 11:49:04 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v2.03.00
+2020/12/01 10:42:47 -> author: Min.Hsieh , message: Upgrade define config interface reference path
+2020/12/01 10:37:34 -> author: Min.Hsieh , message: Upgrade default config interface reference path
+2020/12/01 10:31:54 -> author: Min.Hsieh , message: Remove default sgsms, sms and smtp config
+2020/11/18 13:32:01 -> author: Min.Hsieh , message: Upgrade server-service-oled package
+2020/11/18 13:31:31 -> author: Min.Hsieh , message: Upgrade server-service-edge package
+2020/11/12 10:19:48 -> author: Min.Hsieh , message: v1.03.12
+2020/11/10 17:01:33 -> author: Min.Hsieh , message: Upgrade Save Event system rename message to error
+2020/11/10 16:53:12 -> author: Min.Hsieh , message: Upgrade Save Event system add query data when point not fetch
+2020/11/10 09:21:48 -> author: Min.Hsieh , message: Upgrade User Info model add comment
+2020/10/26 14:34:20 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v2.02.08
+2020/10/13 16:05:04 -> author: Min.Hsieh , message: Remove nsis script
+2020/10/12 16:59:25 -> author: Min.Hsieh , message: v1.03.11
+2020/10/12 16:59:06 -> author: Min.Hsieh , message: Remove encoding enum
+2020/10/12 16:52:58 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v2.02.07
+2020/10/12 16:49:26 -> author: Min.Hsieh , message: Upgrade server-service-edge package
+2020/10/12 16:47:09 -> author: Min.Hsieh , message: Remove encoding enum
+2020/10/12 15:55:49 -> author: Min.Hsieh , message: Upgrade server-service-edge package
+2020/10/12 13:26:28 -> author: Min.Hsieh , message: v1.03.10
+2020/10/12 10:11:54 -> author: Min.Hsieh , message: Remove encoding enum
+2020/10/06 16:06:25 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v2.02.06
+2020/10/06 09:47:38 -> author: Min.Hsieh , message: Upgrade User Web Login cgi fix error message when session not exist
+2020/09/30 18:32:25 -> author: Min.Hsieh , message: Upgrade User Permission clean unuse code
+2020/09/30 18:30:51 -> author: Min.Hsieh , message: Upgrade User Web Login cgi update exception format
+2020/09/30 18:30:04 -> author: Min.Hsieh , message: Upgrade Report Live cgi update exception format
+2020/09/28 13:55:00 -> author: Min.Hsieh , message: v1.03.09
+2020/09/28 13:53:12 -> author: Min.Hsieh , message: Update Admin default password
+2020/09/28 10:10:46 -> author: Min.Hsieh , message: Upgrade Source FRS service throw exception when get image fail
+2020/09/26 15:20:21 -> author: Min.Hsieh , message: v1.03.08
+2020/09/25 15:13:50 -> author: Min.Hsieh , message: Upgrade Create Index shell update report index
+2020/09/24 13:42:05 -> author: Min.Hsieh , message: v1.03.07
+2020/09/24 13:41:37 -> author: Min.Hsieh , message: Upgrade Db helper udpate fix default person tag
+2020/09/24 11:21:09 -> author: Min.Hsieh , message: Upgrade Default Person Tag enum
+2020/09/24 09:42:33 -> author: Min.Hsieh , message: v1.03.06
+2020/09/23 12:38:23 -> author: Tina.Liang, message: Fix Bug 11036 - 忘記密碼的驗證碼信件不應該使用iSense Pro的title和UI
+2020/09/22 09:14:14 -> author: Min.Hsieh , message: Fix Bug 11030 - 當Start/End TIme在同一個小時時搜尋結果會顯示整天的辨識紀錄
+2020/09/18 15:53:42 -> author: Min.Hsieh , message: Upgrade Report Person and Report Person Summary cgi fix sort error
+2020/09/17 14:12:53 -> author: Min.Hsieh , message: v1.03.05
+2020/09/17 14:11:36 -> author: Min.Hsieh , message: Upgrade Report Person and Report Person Summary cgi fix time range query error
+2020/09/17 14:04:25 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v2.02.05
+2020/09/17 14:00:51 -> author: Min.Hsieh , message: Fix Bug 11022 - Door為Private to company時海康平板辨識到沒有Access Group的PersonInvestigation會顯示此Person擁有訪問權限
+2020/09/17 10:54:08 -> author: Min.Hsieh , message: Fix Bug 11012 - SMTP Server設定為Disable時可以發送忘記密碼驗證信
+2020/09/17 09:57:52 -> author: Min.Hsieh , message: Upgrade Report cgi fix get time range function
+2020/09/16 18:20:53 -> author: Min.Hsieh , message: v1.03.04
+2020/09/16 18:20:40 -> author: Min.Hsieh , message: Upgrade server-service-hikvision package
+2020/09/16 16:58:46 -> author: Min.Hsieh , message: v1.03.03
+2020/09/16 16:58:28 -> author: Min.Hsieh , message: Upgrade package.json update hikvision init js path
+2020/09/16 16:27:26 -> author: Min.Hsieh , message: v1.03.02
+2020/09/16 16:24:55 -> author: Min.Hsieh , message: Upgrade server-service-edge package
+2020/09/16 06:57:42 -> author: Min.Hsieh , message: Add server-service-hikvision package
+2020/09/16 14:02:58 -> author: Min.Hsieh , message: Upgrade Report Person and Report Person Summary model fix hour 12 to 24
+2020/09/14 11:48:30 -> author: Min.Hsieh , message: Fix Bug 10998 - Review/條件檢視列表 或 Monitoring/條件檢視列表，camera name為搜尋條件不應有結果
+2020/09/14 09:42:00 -> author: Min.Hsieh , message: v1.03.01
+2020/09/11 17:40:23 -> author: Min.Hsieh , message: Fix Bug 10973 - Event Source為海康平板時在Investigation上的紀錄時間顯示錯誤
+2020/09/11 16:23:18 -> author: Min.Hsieh , message: Upgrade Report Person and Report Person Summary cgi update sort when field was not date
+2020/09/11 16:22:17 -> author: Min.Hsieh , message: Upgrade Report Person and Report Person Summay model
+2020/09/11 16:18:45 -> author: Min.Hsieh , message: Upgrade Create Index shell update report index
+2020/09/11 15:05:33 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v2.02.04
+2020/09/09 13:46:38 -> author: Min.Hsieh , message: Upgrade Report Person cgi add create date filter
+2020/09/07 15:56:12 -> author: Min.Hsieh , message: Upgrade Source Hik Tablet service fix score when person was stranger
+2020/09/07 15:09:53 -> author: Min.Hsieh , message: Upgrade Person Base model add additional info attr
+2020/09/07 15:07:58 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v2.02.03
+2020/09/07 09:08:39 -> author: Min.Hsieh , message: v1.03.00
+2020/09/03 15:33:24 -> author: Min.Hsieh , message: Merge branch 'feature/20200828' into develop
+2020/09/03 15:33:12 -> author: Min.Hsieh , message: Add Person Visitor Remove Image cgi
+2020/09/03 15:33:00 -> author: Min.Hsieh , message: Add Person Staff Remove Image cgi
+2020/09/03 15:32:30 -> author: Min.Hsieh , message: Upgrade Person Base model update image to option
+2020/09/03 15:22:44 -> author: Min.Hsieh , message: Upgrade Person cgi update enroll person can support not have image
+2020/09/03 15:04:36 -> author: Min.Hsieh , message: Upgrade Setting FRS service update add person can support not have image
+2020/09/03 09:33:05 -> author: Min.Hsieh , message: Upgrade server-service-edge package
+2020/09/02 16:33:57 -> author: Min.Hsieh , message: Upgrade Source Oled helper add log when get server info success
+2020/09/01 17:01:54 -> author: Min.Hsieh , message: Merge branch 'feature/20200828' into develop
+2020/09/01 17:01:21 -> author: Min.Hsieh , message: Upgrade Source Hik Tablet model splite host to hostname + port
+2020/09/01 16:26:14 -> author: Min.Hsieh , message: Upgrade Setting FRS and Source FRS model splite host to hostname + port
+2020/09/01 15:56:54 -> author: Min.Hsieh , message: Upgrade service-server-edge package
+2020/09/01 11:57:13 -> author: Min.Hsieh , message: Upgrade Setting Oled model splite host to hostname + port
+2020/09/01 11:54:45 -> author: Min.Hsieh , message: Upgrade server-service-oled package
+2020/08/31 17:22:21 -> author: Min.Hsieh , message: Merge branch 'feature/frameworkversion_MinExpansion_v2.02.02' into develop
+2020/08/31 17:22:10 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v2.02.02
+2020/08/31 17:20:04 -> author: Min.Hsieh , message: Remove License cgi
+2020/08/31 17:19:32 -> author: Min.Hsieh , message: Upgrade License system extend license helper
+2020/08/31 17:19:07 -> author: Min.Hsieh , message: Add License define
+2020/08/31 17:17:18 -> author: Min.Hsieh , message: Upgrade Response model
+2020/08/31 17:16:53 -> author: Min.Hsieh , message: Upgrade Request model
+2020/08/31 10:35:03 -> author: Min.Hsieh , message: Upgrade server-service-edge package
+2020/08/31 10:22:41 -> author: Min.Hsieh , message: Upgrade Report Live cgi udpate set success message
+2020/08/28 12:03:25 -> author: Min.Hsieh , message: Upgrade server-service-edge package
+2020/08/27 17:47:04 -> author: Min.Hsieh , message: v1.02.05
+2020/08/27 17:36:55 -> author: Min.Hsieh , message: Upgrade Hikvision helper update linux init script move lib link to root folder
+2020/08/27 16:52:37 -> author: Min.Hsieh , message: Upgrade Report Live cgi remove log when exception
+2020/08/27 16:11:55 -> author: Min.Hsieh , message: Upgrade Hikvision helper update linux init script add new line
+2020/08/27 15:57:32 -> author: Min.Hsieh , message: Upgrade Hikvision helper update linux init script permission
+2020/08/27 15:30:04 -> author: Min.Hsieh , message: Upgrade Hikvision helper add linux sdk
+2020/08/26 14:55:59 -> author: Min.Hsieh , message: Upgrade Hik Tablet Person Sync action add batch
+2020/08/26 14:55:48 -> author: Min.Hsieh , message: Upgrade FRS Person Sync action add batch
+2020/08/25 18:02:00 -> author: Min.Hsieh , message: Upgrade server-service-oled package
+2020/08/25 17:56:10 -> author: Min.Hsieh , message: Upgrade server-service-edge package
+2020/08/24 17:28:42 -> author: Min.Hsieh , message: Merge branch 'feature/frameworkversion_MinExpansion_v2.02.01' into develop
+2020/08/24 17:28:34 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v2.02.01
+2020/08/24 15:14:46 -> author: Min.Hsieh , message: Upgrade User Permission define add default permission
+2020/08/24 13:23:00 -> author: Min.Hsieh , message: Remove Api cgi
+2020/08/24 13:22:53 -> author: Min.Hsieh , message: Remove Server cgi
+2020/08/20 15:34:06 -> author: Min.Hsieh , message: Remove server-service-file package
+2020/08/20 15:14:38 -> author: Min.Hsieh , message: Upgrade User Permission define export framework define
+2020/08/20 15:14:02 -> author: Min.Hsieh , message: Upgrade middlewares export framework middlewares
+2020/08/19 17:04:23 -> author: Min.Hsieh , message: Fix Bug 10935 - force sync至FRS的Person資料缺少Employee,Position,Email,Card#內容
+2020/08/17 13:50:23 -> author: Min.Hsieh , message: Upgrade Report Live cgi add face feature
+2020/08/17 13:27:43 -> author: Min.Hsieh , message: Upgrade server-sertvice-edge package
+2020/08/12 09:10:27 -> author: Min.Hsieh , message: Upgrade Fix service add company fix
+2020/08/12 09:10:16 -> author: Min.Hsieh , message: Upgrade Fix service add floor fix
+2020/08/05 16:56:43 -> author: Min.Hsieh , message: v1.02.03
+2020/08/05 11:20:15 -> author: Min.Hsieh , message: Upgrade Db helper update create default schema function
+2020/08/05 10:31:58 -> author: Min.Hsieh , message: Upgrade Setting OLED service add create date
+2020/08/05 10:31:24 -> author: Min.Hsieh , message: Upgrade Db helper add create default schema function
+2020/08/05 08:29:48 -> author: Min.Hsieh , message: Upgrade FRS Person action remove try do
+2020/08/05 08:22:13 -> author: Min.Hsieh , message: Upgrade Source Hik Tablet service fix month error
+2020/08/04 18:19:31 -> author: Min.Hsieh , message: Upgrade services add filter when visitor expired
+2020/08/04 18:19:14 -> author: Min.Hsieh , message: Upgrade Person Visitor model add out delete function
+2020/08/04 17:13:20 -> author: Min.Hsieh , message: Upgrade Person Visitor Enroll cgi update permission
+2020/08/04 15:42:06 -> author: Min.Hsieh , message: v1.02.02
+2020/08/03 18:05:11 -> author: Min.Hsieh , message: Upgrade Source FRS cgi remove auto sync when create or update
+2020/08/03 11:57:24 -> author: Min.Hsieh , message: v1.02.01
+2020/08/03 11:08:56 -> author: Min.Hsieh , message: Add Setting FRS Person cgi
+2020/08/03 11:08:43 -> author: Min.Hsieh , message: Upgrade FRS Person action
+2020/08/03 09:23:13 -> author: Min.Hsieh , message: Upgrade Setting OLED service add check server status
+2020/07/31 19:50:49 -> author: Min.Hsieh , message: Merge branch 'feature/20200728' into develop
+2020/07/31 19:48:44 -> author: Min.Hsieh , message: Upgrade service add expired date when visitor out
+2020/07/31 18:49:37 -> author: Min.Hsieh , message: Upgrade Person Visitor cgi add entry mode attr
+2020/07/31 18:47:56 -> author: Min.Hsieh , message: Merge branch 'feature/20200728_add_setting-oled' into feature/20200728
+2020/07/31 18:26:09 -> author: Min.Hsieh , message: Upgrade Setting OLED service add update location at notice
+2020/07/31 18:09:05 -> author: Min.Hsieh , message: Upgrade Location model add binding description
+2020/07/31 17:57:47 -> author: Min.Hsieh , message: Upgrade Setting OLED service add sync location function
+2020/07/31 17:57:03 -> author: Min.Hsieh , message: Upgrade Location model update pointer to string
+2020/07/31 15:18:37 -> author: Min.Hsieh , message: Upgrade Location model remove unused reference
+2020/07/31 15:17:10 -> author: Min.Hsieh , message: Upgrade Location Company cgi remove cud action
+2020/07/31 15:16:50 -> author: Min.Hsieh , message: Upgrade Location Floor cgi remove cud action
+2020/07/31 15:16:26 -> author: Min.Hsieh , message: Upgrade Location Building cgi remove cud action
+2020/07/31 14:58:59 -> author: Min.Hsieh , message: Merge branch 'feature/20200728' into feature/20200728_add_setting-oled
+2020/07/31 14:58:01 -> author: Min.Hsieh , message: Upgrade Setting cgi update response status code when exception
+2020/07/31 14:53:05 -> author: Min.Hsieh , message: Upgrade Fix service update setting frs function
+2020/07/31 14:50:04 -> author: Min.Hsieh , message: Upgrade Setting Acs model add visitor validity buffer attr
+2020/07/31 11:40:31 -> author: Min.Hsieh , message: Upgrade cgis update notify update data frequence
+2020/07/31 11:17:45 -> author: Min.Hsieh , message: Upgrade Access Area cgi remove update floor and level
+2020/07/31 10:45:06 -> author: Min.Hsieh , message: Upgrade Person Visitor cgi add notice when company was update
+2020/07/31 10:44:51 -> author: Min.Hsieh , message: Upgrade Person Staff cgi add notice when company was update
+2020/07/31 10:21:28 -> author: Min.Hsieh , message: Upgrade User Web cgi add notice when company was update
+2020/07/31 09:13:18 -> author: Min.Hsieh , message: Upgrade Source Hik Tablet cgi remove update floor
+2020/07/31 09:13:06 -> author: Min.Hsieh , message: Upgrade Source FRS Camera cgi remove update floor
+2020/07/30 19:05:31 -> author: Min.Hsieh , message: Merge branch 'feature/20200728_update_server-service-edge_package' into feature/20200728
+2020/07/30 19:05:20 -> author: Min.Hsieh , message: Add Source FRS Test cgi
+2020/07/30 18:57:25 -> author: Min.Hsieh , message: Add Setting FRS Test cgi
+2020/07/30 18:49:50 -> author: Min.Hsieh , message: Upgrade Person Tag cgi add permission of vms
+2020/07/30 18:48:19 -> author: Min.Hsieh , message: Upgrade Source Hik Tablet helper update tag format
+2020/07/30 18:46:37 -> author: Min.Hsieh , message: Upgrade Source FRS helper update tag format
+2020/07/30 18:42:39 -> author: Min.Hsieh , message: Upgrade Source FRS helper remove produce check
+2020/07/30 18:41:35 -> author: Min.Hsieh , message: Upgrade server-service-edge package
+2020/07/30 18:35:43 -> author: Min.Hsieh , message: Merge branch 'feature/20200728_add_setting-oled' into feature/20200728
+2020/07/30 18:35:05 -> author: Min.Hsieh , message: Add Setting OLED cgi
+2020/07/30 18:32:49 -> author: Min.Hsieh , message: Add Setting OLED service
+2020/07/30 18:31:52 -> author: Min.Hsieh , message: Add Source OLED helper
+2020/07/30 14:17:36 -> author: Min.Hsieh , message: Add Setting OLED model
+2020/07/30 13:45:52 -> author: Min.Hsieh , message: Add server-service-oled package
+2020/07/30 11:34:47 -> author: Min.Hsieh , message: Merge branch 'feature/20200728_update_server-service-edge_package' into feature/20200728
+2020/07/30 11:34:35 -> author: Min.Hsieh , message: Upgrade Fix service add data
+2020/07/30 11:34:03 -> author: Min.Hsieh , message: Upgrade services
+2020/07/30 11:33:12 -> author: Min.Hsieh , message: Upgrade actions
+2020/07/30 11:32:58 -> author: Min.Hsieh , message: Upgrade Data Center system
+2020/07/30 11:32:35 -> author: Min.Hsieh , message: Upgrade cgis
+2020/07/30 11:28:07 -> author: Min.Hsieh , message: Upgrade models
+2020/07/30 10:25:45 -> author: Min.Hsieh , message: Upgrade Source FRS helper
+2020/07/30 09:47:26 -> author: Min.Hsieh , message: Upgrade server-service-edge package
+2020/07/30 09:34:50 -> author: Min.Hsieh , message: Merge branch 'feature/20200728_update_source-hik-talet_model' into feature/20200728
+2020/07/30 09:34:25 -> author: Min.Hsieh , message: Upgrade Source Hik Tablet service
+2020/07/30 09:24:51 -> author: Min.Hsieh , message: Upgrade Fix service add fix source hik tablet data
+2020/07/29 17:28:54 -> author: Min.Hsieh , message: Upgrade services
+2020/07/29 17:27:20 -> author: Min.Hsieh , message: Upgrade actions
+2020/07/29 17:26:57 -> author: Min.Hsieh , message: Upgrade cgis
+2020/07/29 17:25:07 -> author: Min.Hsieh , message: Upgrade Source Hik Tablet model
+2020/07/29 17:21:14 -> author: Min.Hsieh , message: Upgrade Utility helper add host split function
+2020/07/29 15:36:24 -> author: Min.Hsieh , message: Upgrade Person Visitor model add tag attr
+2020/07/29 13:56:48 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/20200728
+2020/07/29 13:54:52 -> author: Min.Hsieh , message: Upgrade Person Visitor Enroll cgi update permission
+2020/07/29 13:54:02 -> author: Min.Hsieh , message: Upgrade cgis add manager allow permission
+2020/07/29 13:16:35 -> author: Min.Hsieh , message: Add Manager role
+2020/07/27 13:53:05 -> author: Min.Hsieh , message: Upgrade server-service-edge package
+2020/07/27 11:58:12 -> author: Min.Hsieh , message: Remove Ws helper
+2020/07/24 13:13:19 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v2.01.02
+2020/07/21 15:30:24 -> author: Min.Hsieh , message: Merge branch 'feature/frameworkversion_MinExpansion_v2.01.01' into develop
+2020/07/21 15:29:46 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v2.01.01
+2020/07/21 15:29:31 -> author: Min.Hsieh , message: Upgrade cgis remove action catch log
+2020/07/21 15:21:58 -> author: Min.Hsieh , message: Upgrade main file remove log mongo url
+2020/07/21 15:21:44 -> author: Min.Hsieh , message: Upgrade helpers add export framework helper
+2020/07/16 16:47:34 -> author: Min.Hsieh , message: v1.01.03
+2020/07/16 15:43:07 -> author: Min.Hsieh , message: Upgrade User Web Login cgi update status code when signup fail
+2020/07/16 14:54:43 -> author: Min.Hsieh , message: Upgrade Model MongoData helper add parse data type
+2020/07/16 13:39:33 -> author: Min.Hsieh , message: Add Source All Detail cgi
+2020/07/15 16:38:51 -> author: Min.Hsieh , message: Fix Bug 10871 - Access Report紀錄未顯示此員工已離開時仍可產生第二筆紀錄
+2020/07/15 15:10:38 -> author: Min.Hsieh , message: Upgrade nsis script
+2020/07/15 13:47:57 -> author: Min.Hsieh , message: v1.01.02
+2020/07/15 13:45:35 -> author: Min.Hsieh , message: Upgrade Hikvision helper add not support response when on linux
+2020/07/15 11:57:43 -> author: Min.Hsieh , message: v1.01.01
+2020/07/15 11:25:07 -> author: Min.Hsieh , message: Merge branch 'feature/20200702' into develop
+2020/07/15 11:24:47 -> author: Min.Hsieh , message: Upgrade Person Sync action fix error when not have permission
+2020/07/15 11:03:47 -> author: Min.Hsieh , message: Upgrade Source Hik Tablet service add save report
+2020/07/15 09:42:58 -> author: Min.Hsieh , message: Upgrade Source Hik Tablet service add retry function
+2020/07/15 09:42:31 -> author: Min.Hsieh , message: Upgrade Hikvision helper
+2020/07/14 18:21:52 -> author: Min.Hsieh , message: Upgrade Person Sync action add hik tablet
+2020/07/14 18:09:14 -> author: Min.Hsieh , message: Upgrade Person Delete action add hik tablet
+2020/07/14 17:29:31 -> author: Min.Hsieh , message: Upgrade Hik Tablet Person Sync action add permission
+2020/07/14 16:14:52 -> author: Min.Hsieh , message: Upgrade Source Hik Tablet helper fix error when not set source
+2020/07/14 15:22:45 -> author: Min.Hsieh , message: Upgrade Hikvision helper
+2020/07/14 15:17:11 -> author: Min.Hsieh , message: Upgrade Hik Tablet Person action
+2020/07/14 13:00:01 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/20200702
+2020/07/14 12:59:30 -> author: Min.Hsieh , message: Upgrade FRS Person Clear action remove count default person
+2020/07/14 12:35:01 -> author: Min.Hsieh , message: Upgrade FRS Person action fix error
+2020/07/14 12:17:47 -> author: Min.Hsieh , message: Upgrade Source Hik Tablet helper add base url attr
+2020/07/14 12:17:15 -> author: Min.Hsieh , message: Upgrade Hikvision helper
+2020/07/14 12:13:51 -> author: Min.Hsieh , message: Upgrade Source Hik tablet service update stop process
+2020/07/14 12:13:24 -> author: Min.Hsieh , message: Upgrade Source Hik Tablet cgi update hik tablet reference
+2020/07/14 12:05:07 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v2.00.02
+2020/07/14 11:37:24 -> author: Min.Hsieh , message: Add Source Hik Tabket helper
+2020/07/14 10:54:02 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/20200702
+2020/07/14 10:52:12 -> author: Min.Hsieh , message: Merge branch 'feature/update_source_frs_helper' into develop
+2020/07/14 10:51:54 -> author: Min.Hsieh , message: Upgrade services
+2020/07/14 10:51:40 -> author: Min.Hsieh , message: Upgrade actions
+2020/07/14 10:50:55 -> author: Min.Hsieh , message: Upgrade Source FRS helper add tag attr
+2020/07/14 10:49:44 -> author: Min.Hsieh , message: Upgrade server-service-edge package
+2020/07/14 09:27:20 -> author: Min.Hsieh , message: Upgrade actions add catch log
+2020/07/13 17:54:56 -> author: Min.Hsieh , message: Add Source Hik Tablet service
+2020/07/13 15:47:42 -> author: Min.Hsieh , message: Upgrade Hikvision helper
+2020/07/13 11:47:01 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/20200702
+2020/07/13 11:46:37 -> author: Min.Hsieh , message: Upgrade Source FRS service update get all floor
+2020/07/13 11:06:52 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/20200702
+2020/07/13 11:04:55 -> author: Min.Hsieh , message: Upgrade Enroll Person add check when get person error
+2020/07/10 17:41:23 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/20200702
+2020/07/10 17:39:05 -> author: Min.Hsieh , message: v1.00.16
+2020/07/10 16:44:08 -> author: Min.Hsieh , message: Upgrade Source Hik Tablet cgi remove create and update notify
+2020/07/10 15:13:50 -> author: Min.Hsieh , message: Upgrade HikTablet cgi unite parameter name and remove console
+2020/07/10 14:52:07 -> author: Min.Hsieh , message: Upgrade Source FRS service
+2020/07/10 14:25:13 -> author: Min.Hsieh , message: Upgrade HikTablet cgi add hik tablet status check
+2020/07/10 13:58:13 -> author: Min.Hsieh , message: Upgrade main file udpate hikvision init function
+2020/07/10 13:39:51 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/20200702
+2020/07/10 13:32:51 -> author: Min.Hsieh , message: Upgrade server-service-email package
+2020/07/10 11:40:51 -> author: Min.Hsieh , message: Upgrade Enroll Default Person fix duplicate default id
+2020/07/10 10:02:30 -> author: Min.Hsieh , message: Upgrade setvices update restart service delay time to 10s
+2020/07/10 09:55:54 -> author: Min.Hsieh , message: Upgrade Source FRS service add log when get image fail
+2020/07/10 09:54:22 -> author: Min.Hsieh , message: Remove Text Message helper
+2020/07/09 13:40:09 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/20200702
+2020/07/09 13:36:09 -> author: Min.Hsieh , message: v1.00.15
+2020/07/09 13:34:57 -> author: Min.Hsieh , message: Upgrade server-service-edge package
+2020/07/09 09:27:11 -> author: Min.Hsieh , message: Add Hikvision helper
+2020/07/09 09:23:32 -> author: Min.Hsieh , message: Upgrade FRS Person Clear action add delete default person
+2020/07/08 15:43:39 -> author: Min.Hsieh , message: Add Report Person Summary action
+2020/07/08 13:20:02 -> author: Min.Hsieh , message: Add Source Hik Tablet Person cgi
+2020/07/08 13:06:19 -> author: Min.Hsieh , message: Upgrade Access Area cgi update can binding multi type camera
+2020/07/07 16:56:50 -> author: Min.Hsieh , message: Upgrade Source Hik Tablet model add isConnected adn lastConnectDate
+2020/07/07 16:18:19 -> author: Min.Hsieh , message: Add Source All cgi
+2020/07/07 14:55:01 -> author: Min.Hsieh , message: Add Source Hik Tablet Test cgi
+2020/07/07 14:08:06 -> author: Min.Hsieh , message: Add Source Hik Tablet cgi
+2020/07/07 10:08:48 -> author: Min.Hsieh , message: Upgrade Response Souce model rename license summary
+2020/07/06 18:23:11 -> author: Min.Hsieh , message: Add Image Resize before Enrll Person
+2020/07/06 18:18:46 -> author: Min.Hsieh , message: Upgrade Setting FRS service fix error when create
+2020/07/06 17:49:51 -> author: Min.Hsieh , message: Upgrade Draw helper update can resize by max size
+2020/07/06 16:18:44 -> author: Min.Hsieh , message: Upgrade Setting FRS service update insert when edge person not found
+2020/07/06 14:05:11 -> author: Min.Hsieh , message: Upgrade services update process
+2020/07/06 14:01:39 -> author: Min.Hsieh , message: Upgrade Setting FRS service update process of enable add person stream
+2020/07/03 13:32:15 -> author: Min.Hsieh , message: v1.00.14
+2020/07/02 18:30:10 -> author: Min.Hsieh , message: Upgrade Enroll Default Person update get person by objectid
+2020/07/02 18:02:03 -> author: Min.Hsieh , message: Merge branch 'feature/frameworkversion_MinExpansion_v2.00.01' into develop
+2020/07/02 17:32:43 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v2.00.01
+2020/07/01 16:28:47 -> author: Min.Hsieh , message: Upgrade server-service-print package
+2020/07/01 16:09:58 -> author: Min.Hsieh , message: Upgrade parse-server package
+2020/07/01 14:37:37 -> author: Min.Hsieh , message: v1.00.13
+2020/07/01 14:32:38 -> author: Min.Hsieh , message: Upgrade Enroll Default Person add Default objectid
+2020/06/30 17:47:56 -> author: Min.Hsieh , message: Upgrade @types/parse package
+2020/06/30 11:51:49 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/frameworkversion_MinExpansion_v2.00.01
+2020/06/30 11:48:17 -> author: Min.Hsieh , message: Upgrade Expired service add use batch
+2020/06/30 11:13:51 -> author: Min.Hsieh , message: Upgrade project remove fail
+2020/06/30 11:13:12 -> author: Min.Hsieh , message: Upgrade Model Mongo Data helper
+2020/06/29 21:20:55 -> author: Min.Hsieh , message: Upgrade project remove fail
+2020/06/29 20:40:08 -> author: Min.Hsieh , message: Upgrade project to nodejs v12.18.1
+2020/06/29 20:28:04 -> author: Min.Hsieh , message: Upgrade Model Mongo Data helper
+2020/06/29 20:27:44 -> author: Min.Hsieh , message: Remove Event define
+2020/06/29 20:27:05 -> author: Min.Hsieh , message: Remove Parse Dashboard config
+2020/06/29 11:39:53 -> author: Min.Hsieh , message: Upgrade Person Visitor cgi update can update card
+2020/06/29 10:05:50 -> author: Min.Hsieh , message: Upgrade Person Staff cgi update can update card
+2020/06/24 16:33:25 -> author: Min.Hsieh , message: Fix Bug 10842 - Private for Company的Door的Company被刪除時,此Door之前使用的Event Source無法被任何Door新增
+2020/06/23 13:30:24 -> author: Min.Hsieh , message: Upgrade Data Center system update expired default config
+2020/06/22 14:37:27 -> author: Min.Hsieh , message: v1.00.12
+2020/06/22 14:35:30 -> author: Min.Hsieh , message: Upgrade License Source FRS Camera service fix get license error
+2020/06/22 13:29:07 -> author: Min.Hsieh , message: v1.00.11
+2020/06/22 12:09:35 -> author: Min.Hsieh , message: Upgrade License enum fix get name error
+2020/06/22 11:35:57 -> author: Min.Hsieh , message: Upgrade Server Log cgi update html style
+2020/06/22 11:08:17 -> author: Min.Hsieh , message: Upgrade Server Change Log cgi update html style
+2020/06/20 11:40:54 -> author: Min.Hsieh , message: v1.00.10
+2020/06/20 11:40:08 -> author: Min.Hsieh , message: Upgrade Source FRS service update permission map rule
+2020/06/20 10:04:18 -> author: Min.Hsieh , message: Upgrade Expired service add event
+2020/06/19 11:42:04 -> author: Min.Hsieh , message: Upgrade Report Person cgi add employee id keyword
+2020/06/19 10:45:11 -> author: Min.Hsieh , message: Upgrade Expired Report Person service add filter when image was null
+2020/06/19 10:45:03 -> author: Min.Hsieh , message: Upgrade Expired Report Live Person service add filter when image was null
+2020/06/18 16:32:44 -> author: Min.Hsieh , message: v1.00.09
+2020/06/18 16:29:52 -> author: Min.Hsieh , message: Fix Bug 10803 - 當FRSM更新Person profile裡的Tag資訊時，FRS Edge Person profile的Person group舊的Group(Tag)還會存在
+2020/06/18 14:11:50 -> author: Min.Hsieh , message: Upgrade Source FRS Device udpate source
+2020/06/18 14:05:04 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/06/18 13:36:47 -> author: Min.Hsieh , message: Upgrade License enum update product name
+2020/06/18 13:29:06 -> author: Min.Hsieh , message: Upgrade Source FRS service add retry function
+2020/06/18 13:28:52 -> author: Min.Hsieh , message: Upgrade Setting FRS service add retry function
+2020/06/18 12:00:43 -> author: Min.Hsieh , message: Add Retry Person model
+2020/06/18 12:00:22 -> author: Min.Hsieh , message: Upgrade Source FRS service update stop function
+2020/06/18 11:59:45 -> author: Min.Hsieh , message: Upgrade Source FRS helper add overwrite init function
+2020/06/18 11:13:46 -> author: Min.Hsieh , message: Upgrade Source FRS helper update try do logic
+2020/06/18 11:08:31 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/06/17 10:07:11 -> author: Min.Hsieh , message: Upgrade User cgi update validate password rule
+2020/06/16 15:33:42 -> author: Min.Hsieh , message: v1.00.08
+2020/06/16 15:19:00 -> author: Min.Hsieh , message: Upgrade cgis update notice add batch update data
+2020/06/16 14:33:39 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v1.07.09
+2020/06/16 13:57:24 -> author: Min.Hsieh , message: Upgrade Person config update transparent to false
+2020/06/16 10:04:07 -> author: Min.Hsieh , message: Upgrade Source FRS service update save report process
+2020/06/15 13:23:53 -> author: Min.Hsieh , message: Upgrade cgis format code
+2020/06/15 10:28:32 -> author: Min.Hsieh , message: Remove Template cgi
+2020/06/11 16:31:26 -> author: Min.Hsieh , message: v1.00.07
+2020/06/11 10:53:01 -> author: Min.Hsieh , message: Upgrade Source FRS service update save person report
+2020/06/10 17:10:21 -> author: Min.Hsieh , message: v1.00.06
+2020/06/10 17:08:40 -> author: Min.Hsieh , message: Upgrade Report Person fix query error
+2020/06/10 16:59:13 -> author: Min.Hsieh , message: Upgrade Source FRS service update log when search permission map
+2020/06/10 16:03:01 -> author: Min.Hsieh , message: Upgrade Source FRS service fix sync permission map error
+2020/06/10 10:00:58 -> author: Min.Hsieh , message: Upgrade Log helper update log file name format
+2020/06/10 09:59:33 -> author: Min.Hsieh , message: Upgrade Server Service Print package
+2020/06/09 19:06:20 -> author: Min.Hsieh , message: Upgrade cgis
+2020/06/09 12:02:50 -> author: Min.Hsieh , message: Upgrade Source FRS service fix log data error
+2020/06/09 12:02:39 -> author: Min.Hsieh , message: Upgrade Setting FRS service fix log data error
+2020/06/09 11:38:56 -> author: Min.Hsieh , message: v1.00.05
+2020/06/09 09:49:50 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v1.07.08
+2020/06/09 09:13:13 -> author: Min.Hsieh , message: Upgrade Report Person model update status to required
+2020/06/09 09:12:17 -> author: Min.Hsieh , message: Upgrade Person cgi remove unused code
+2020/06/08 18:42:19 -> author: Min.Hsieh , message: Upgrade Source FRS service update status from frs
+2020/06/08 18:36:55 -> author: Min.Hsieh , message: Upgrade Source FRS service add check frs ready
+2020/06/08 18:36:32 -> author: Min.Hsieh , message: Upgrade Source FRS cgi add check frs ready
+2020/06/08 18:36:00 -> author: Min.Hsieh , message: Merge branch 'feature/update_server-service-edge_package' into develop
+2020/06/08 18:35:17 -> author: Min.Hsieh , message: Upgrade services
+2020/06/08 18:29:16 -> author: Min.Hsieh , message: Upgrade FRS Source FRS helper
+2020/06/08 18:29:00 -> author: Min.Hsieh , message: Upgrade actions
+2020/06/08 18:28:30 -> author: Min.Hsieh , message: Upgrade Source FRS cgi
+2020/06/08 18:27:59 -> author: Min.Hsieh , message: Upgrade Setting FRS cgi
+2020/06/08 16:30:19 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/06/05 16:55:56 -> author: Min.Hsieh , message: Merge branch 'feature/update_server-service-edge_package' into develop
+2020/06/05 16:55:46 -> author: Min.Hsieh , message: Upgrade Person Sync action add sync floor and accessgroup data
+2020/06/05 16:38:29 -> author: Min.Hsieh , message: Upgrade Source FRS service add sync setting frsm to edge
+2020/06/05 15:48:16 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/06/05 15:45:59 -> author: Min.Hsieh , message: Merge branch 'feature/update_enroll_person' into develop
+2020/06/05 14:59:39 -> author: Min.Hsieh , message: Upgrade Person cgi update enroll person parameter
+2020/06/05 14:58:48 -> author: Min.Hsieh , message: Upgrade Setting FRS service update add person parameter
+2020/06/04 17:48:40 -> author: Min.Hsieh , message: Upgrade Source FRS service change frs initialization time
+2020/06/04 17:44:44 -> author: Min.Hsieh , message: Upgrade Setting FRS service fix connect error when disconnect
+2020/06/04 17:38:48 -> author: Min.Hsieh , message: Upgrade services update stop when catch
+2020/06/04 17:17:33 -> author: Min.Hsieh , message: Upgrade Source FRS service add search locations
+2020/06/04 13:48:58 -> author: Min.Hsieh , message: Upgrade FRS Person Clear action add try do at call function
+2020/06/04 11:41:26 -> author: Min.Hsieh , message: Upgrade Source FRS service add try do at call function
+2020/06/04 11:41:03 -> author: Min.Hsieh , message: Upgrade FRS Person Sync action add try do at call function
+2020/06/04 11:21:16 -> author: Min.Hsieh , message: Upgrade FRS Person Clear action add try do at call function
+2020/06/04 11:20:23 -> author: Min.Hsieh , message: Merge branch 'feature/update_server-service-edge_package' into develop
+2020/06/04 09:10:54 -> author: Min.Hsieh , message: Upgrade Person cgi add set engine id
+2020/06/04 09:10:19 -> author: Min.Hsieh , message: Upgrade Setting FRS service update add person response
+2020/06/03 18:49:07 -> author: Min.Hsieh , message: Upgrade Source FRS and Setting FRS add enroll default person
+2020/06/03 18:48:04 -> author: Min.Hsieh , message: Upgrade Person Delete action remove unuse console
+2020/06/03 18:47:28 -> author: Min.Hsieh , message: Add Default Person resource
+2020/06/03 17:52:36 -> author: Min.Hsieh , message: Upgrade Setting FRS service update enroll rule
+2020/06/03 17:47:42 -> author: Min.Hsieh , message: Upgrade Person Sync action add update person send image
+2020/06/03 17:47:33 -> author: Min.Hsieh , message: Upgrade Person Delete action add update person send image
+2020/06/03 17:47:06 -> author: Min.Hsieh , message: Upgrade FRS Person Sync action add update person send image
+2020/06/03 17:22:26 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/06/03 14:27:07 -> author: Min.Hsieh , message: Upgrade Person Base model add engine id
+2020/06/03 14:17:07 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/update_server-service-edge_package
+2020/06/03 14:16:54 -> author: Min.Hsieh , message: Add Person Base model
+2020/06/03 14:14:40 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/06/01 17:13:15 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v1.07.07
+2020/06/01 09:55:05 -> author: Min.Hsieh , message: v1.00.04
+2020/06/01 09:53:44 -> author: Min.Hsieh , message: Fix Bug 10641 - Event Source Name重複的錯誤訊息建議從camera name改為Event Source Name
+2020/06/01 09:27:17 -> author: Min.Hsieh , message: Upgrade config add config file when not alive
+2020/05/29 20:21:16 -> author: Min.Hsieh , message: Merge branch 'feature/update_source_frs_service' into develop
+2020/05/29 20:19:44 -> author: Min.Hsieh , message: Upgrade Source FRS service add schedule when area was private company
+2020/05/29 17:52:08 -> author: Min.Hsieh , message: Merge branch 'feature/update_source_frs_service' into develop
+2020/05/29 17:51:58 -> author: Min.Hsieh , message: Upgrade Source FRS service fix get report background service when edge dead
+2020/05/29 17:49:04 -> author: Min.Hsieh , message: Upgrade confit remove rewrite config to file
+2020/05/29 17:29:40 -> author: Min.Hsieh , message: Upgrade Source FRS service add save report function
+2020/05/29 17:20:26 -> author: Min.Hsieh , message: Upgrade Source FRS service update set lase report date when not have exception
+2020/05/29 14:37:03 -> author: Min.Hsieh , message: Upgrade Source FRS service add log at live face and permission map
+2020/05/29 14:24:39 -> author: Min.Hsieh , message: Merge branch 'feature/add_report_audit_person_visitor' into develop
+2020/05/29 10:32:50 -> author: Min.Hsieh , message: Add Report Audit Person Visitor cgi
+2020/05/29 10:32:36 -> author: Min.Hsieh , message: Add Report Audit Person Visitor Summary cgi
+2020/05/29 09:53:02 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/add_report_audit_person_visitor
+2020/05/29 09:52:34 -> author: Min.Hsieh , message: Upgrade Person Staff and Visitor cgi add response company unit number when get list
+2020/05/29 09:25:16 -> author: Min.Hsieh , message: Upgrade Expired services update check expired by hour ago
+2020/05/29 09:21:39 -> author: Min.Hsieh , message: Merge branch 'feature/add_report_audit_person_visitor' into develop
+2020/05/29 09:21:27 -> author: Min.Hsieh , message: Add Expired Report Audit Person Visitor Summary service
+2020/05/29 09:21:14 -> author: Min.Hsieh , message: Add Expired Report Audit Person Visitor service
+2020/05/29 09:16:46 -> author: Min.Hsieh , message: Add Expired Person Visitor service
+2020/05/29 09:10:52 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/add_report_audit_person_visitor
+2020/05/29 09:01:44 -> author: Min.Hsieh , message: Upgrade Expired Person Staff service udpate check expired by hour ago
+2020/05/29 09:00:21 -> author: Min.Hsieh , message: Upgrade Expired services update delay time align to hour
+2020/05/29 08:45:58 -> author: Min.Hsieh , message: Upgrade Create Index shell add report audit person visitor index
+2020/05/28 18:14:23 -> author: Min.Hsieh , message: Merge branch 'feature/add_report_audit_person_visitor' into develop
+2020/05/28 18:12:49 -> author: Min.Hsieh , message: Add Report Audit Person Visitor Summary model
+2020/05/28 18:12:31 -> author: Min.Hsieh , message: Add Report Audit Person Visitor model
+2020/05/28 18:01:21 -> author: Min.Hsieh , message: Fix Bug 10712 - Edge和FRSM連接之後，Setting|FR-Engine頁面的"Location"欄位內容固定為"FRSManager"
+2020/05/28 17:41:13 -> author: Min.Hsieh , message: Merge branch 'feature/add_person_visitor' into develop
+2020/05/28 17:40:47 -> author: Min.Hsieh , message: Add Person Visitor cgi
+2020/05/28 17:37:01 -> author: Min.Hsieh , message: Upgrade FRS Person Sync cgi add sync visitor person
+2020/05/28 17:36:35 -> author: Min.Hsieh , message: Upgrade Person Delete action update check visitor at check last person
+2020/05/28 17:32:19 -> author: Min.Hsieh , message: Add Person Visitor Enroll cgi
+2020/05/28 15:00:32 -> author: Min.Hsieh , message: Upgrade Person Staff cgi fix event type when update
+2020/05/28 14:55:51 -> author: Min.Hsieh , message: Upgrade Setting FRS service add visitor duplicate check
+2020/05/28 14:53:53 -> author: Min.Hsieh , message: Upgrade Create Index shell add person visitor index
+2020/05/28 14:17:54 -> author: Min.Hsieh , message: Upgrade Person Visitor model remove end date check
+2020/05/28 14:17:05 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/add_person_visitor
+2020/05/28 14:16:00 -> author: Min.Hsieh , message: Merge branch 'feature/add_access_schedule' into develop
+2020/05/28 14:15:47 -> author: Min.Hsieh , message: Upgrade Source FRS service update camera permission map
+2020/05/28 14:15:20 -> author: Min.Hsieh , message: Upgrade Access Area cgi
+2020/05/28 14:14:48 -> author: Min.Hsieh , message: Upgrade Access Group model remove areas
+2020/05/28 14:06:58 -> author: Min.Hsieh , message: Upgrade Person Staff model remove end date check
+2020/05/28 14:05:58 -> author: Min.Hsieh , message: Upgrade Expired Person Staff service remove hour filter
+2020/05/28 11:46:59 -> author: Min.Hsieh , message: Upgrade Access Group cgi add schedule binding
+2020/05/28 10:24:47 -> author: Min.Hsieh , message: Upgrade Access Group model add schedule binding
+2020/05/28 09:30:04 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/add_access_schedule
+2020/05/28 09:29:41 -> author: Min.Hsieh , message: Upgrade Model helper add get key value parse object function
+2020/05/27 16:59:43 -> author: Min.Hsieh , message: Add Access Schedule cgi
+2020/05/27 14:26:39 -> author: Min.Hsieh , message: Add Access Schedule model
+2020/05/27 13:39:15 -> author: Min.Hsieh , message: Upgrade Service Datetime package
+2020/05/27 13:32:27 -> author: Min.Hsieh , message: Merge branch 'feature/update_server-service-edge_package' into develop
+2020/05/27 13:32:15 -> author: Min.Hsieh , message: Upgrade Source FRS helper add check user role when login
+2020/05/27 13:32:03 -> author: Min.Hsieh , message: Upgrade Source FRS helper
+2020/05/27 13:20:37 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/05/27 11:35:49 -> author: Min.Hsieh , message: Add Person Visitor model
+2020/05/27 10:28:29 -> author: Min.Hsieh , message: Merge branch 'fix/query_error_when_same_key' into develop
+2020/05/27 10:28:19 -> author: Min.Hsieh , message: Upgrade Location Floor cgi
+2020/05/27 10:28:09 -> author: Min.Hsieh , message: Upgrade Access Group cgi
+2020/05/26 17:20:59 -> author: Min.Hsieh , message: Upgrade Source FRS service add permission map log
+2020/05/26 17:03:04 -> author: Min.Hsieh , message: Merge branch 'feature/update_server-service-edge_package' into develop
+2020/05/26 16:27:42 -> author: Min.Hsieh , message: Upgrade Source FRS service update live face and report time
+2020/05/26 16:24:04 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/05/26 15:20:50 -> author: Min.Hsieh , message: Merge branch 'feature/add_person_visitor_reject' into develop
+2020/05/26 15:20:05 -> author: Min.Hsieh , message: Upgrade Person Delete action add check person visitor reject
+2020/05/26 15:02:53 -> author: Min.Hsieh , message: Upgrade Setting FRS service add check repeat when type was person visitor reject
+2020/05/26 15:00:29 -> author: Min.Hsieh , message: Add Person Visitor Reject cgi
+2020/05/26 14:59:23 -> author: Min.Hsieh , message: Add Person Visitor Reject model
+2020/05/26 14:48:25 -> author: Min.Hsieh , message: Upgrade Person Staff Reject cgi remove unused include
+2020/05/26 14:48:12 -> author: Min.Hsieh , message: Upgrade Person Staff cgi remove unused include
+2020/05/26 11:41:54 -> author: Min.Hsieh , message: Upgrade Db helper fix is user error when role was vms
+2020/05/26 11:41:10 -> author: Min.Hsieh , message: Upgrade User Permission define add crud vms role permission in sa
+2020/05/26 08:43:36 -> author: Min.Hsieh , message: Merge branch 'feature/service-datetime' into develop
+2020/05/26 08:40:30 -> author: Min.Hsieh , message: Upgrade services
+2020/05/26 08:39:17 -> author: Min.Hsieh , message: Upgrade models
+2020/05/26 08:38:54 -> author: Min.Hsieh , message: Upgrade helpers
+2020/05/26 08:38:28 -> author: Min.Hsieh , message: Upgrade cgis
+2020/05/25 18:30:31 -> author: Min.Hsieh , message: Upgrade main file
+2020/05/25 18:19:34 -> author: Min.Hsieh , message: Upgrade helper reference
+2020/05/25 18:19:28 -> author: Min.Hsieh , message: Add Service DateTime package
+2020/05/25 17:35:17 -> author: Min.Hsieh , message: Merge branch 'feature/service-regex' into develop
+2020/05/25 17:34:50 -> author: Min.Hsieh , message: Upgrade models
+2020/05/25 17:34:34 -> author: Min.Hsieh , message: Upgrade actions
+2020/05/25 17:34:22 -> author: Min.Hsieh , message: Upgrade cgis
+2020/05/25 17:34:05 -> author: Min.Hsieh , message: Upgrade helper reference
+2020/05/25 17:22:54 -> author: Min.Hsieh , message: Merge branch 'feature/add_server-service-log_package' into develop
+2020/05/25 17:22:26 -> author: Min.Hsieh , message: Upgrade helpers
+2020/05/25 17:22:14 -> author: Min.Hsieh , message: Upgrade main file
+2020/05/25 17:22:02 -> author: Min.Hsieh , message: Upgrade helper reference
+2020/05/25 17:19:53 -> author: Min.Hsieh , message: Merge commit '5dce21c968f1207dc39040bdfb9da82869b0d53f' into feature/add_server-service-log_package
+2020/05/25 17:18:32 -> author: Min.Hsieh , message: Merge branch 'feature/add_server-service-file_package' into develop
+2020/05/25 16:58:53 -> author: Min.Hsieh , message: Upgrade templates
+2020/05/25 16:58:38 -> author: Min.Hsieh , message: Upgrade helpers
+2020/05/25 16:58:22 -> author: Min.Hsieh , message: Upgrade cgis
+2020/05/25 16:58:06 -> author: Min.Hsieh , message: Upgrade main file
+2020/05/25 16:49:20 -> author: Min.Hsieh , message: Upgrade helper reference
+2020/05/25 16:29:00 -> author: Min.Hsieh , message: Merge commit '766c0e1f468d936871fe1f4f144011b3b641f778' into feature/add_server-service-file_package
+2020/05/25 15:55:26 -> author: Min.Hsieh , message: Merge branch 'feature/add_server-service-print_package' into develop
+2020/05/25 15:55:01 -> author: Min.Hsieh , message: Upgrade systems
+2020/05/25 15:54:43 -> author: Min.Hsieh , message: Upgrade shells
+2020/05/25 15:54:28 -> author: Min.Hsieh , message: Upgrade services
+2020/05/25 15:54:19 -> author: Min.Hsieh , message: Upgrade helpers
+2020/05/25 15:54:07 -> author: Min.Hsieh , message: Upgrade actions
+2020/05/25 15:53:57 -> author: Min.Hsieh , message: Upgrade cgis
+2020/05/25 15:53:45 -> author: Min.Hsieh , message: Upgrade main file
+2020/05/25 15:53:37 -> author: Min.Hsieh , message: Upgrade helper reference
+2020/05/25 14:53:17 -> author: Min.Hsieh , message: Add Server Service Print package
+2020/05/25 14:51:26 -> author: Min.Hsieh , message: Merge branch 'feature/add_server-service-log_package' into develop
+2020/05/25 14:49:22 -> author: Min.Hsieh , message: Upgrade Utility Print helper
+2020/05/25 14:48:58 -> author: Min.Hsieh , message: Upgrade Utility Db helper
+2020/05/25 14:48:36 -> author: Min.Hsieh , message: Upgrade main file
+2020/05/25 14:48:21 -> author: Min.Hsieh , message: Upgrade helper reference
+2020/05/25 14:31:00 -> author: Min.Hsieh , message: Add Server Service Log package
+2020/05/25 13:58:07 -> author: Min.Hsieh , message: Upgrade Service Regex package
+2020/05/25 13:54:00 -> author: Min.Hsieh , message: Merge branch 'feature/add_server-service-file_package' into develop
+2020/05/25 13:52:03 -> author: Min.Hsieh , message: Upgrade Email User Forget Password template
+2020/05/25 13:51:43 -> author: Min.Hsieh , message: Upgrade Utility Utility helper
+2020/05/25 13:50:57 -> author: Min.Hsieh , message: Upgrade Utility Log helper
+2020/05/25 13:45:20 -> author: Min.Hsieh , message: Upgrade Utility Db helper
+2020/05/25 13:44:27 -> author: Min.Hsieh , message: Upgrade Server Log cgi
+2020/05/25 13:41:52 -> author: Min.Hsieh , message: Upgrade Server Change Log cgi
+2020/05/25 13:41:37 -> author: Min.Hsieh , message: Upgrade License cgi
+2020/05/25 13:40:31 -> author: Min.Hsieh , message: Upgrade main file
+2020/05/25 13:39:44 -> author: Min.Hsieh , message: Upgrade helper reference
+2020/05/25 11:04:22 -> author: Min.Hsieh , message: Add Server Service File package
+2020/05/22 16:04:54 -> author: Min.Hsieh , message: Upgrade FRS Source FRS helper add check product name when login
+2020/05/22 09:45:30 -> author: Min.Hsieh , message: Add Report Live Person Twin Peak cgi
+2020/05/21 15:16:38 -> author: Min.Hsieh , message: v1.00.03
+2020/05/21 15:13:37 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/05/21 14:53:51 -> author: Min.Hsieh , message: Merge branch 'feature/enroll_person_tag' into develop
+2020/05/21 14:51:07 -> author: Min.Hsieh , message: Upgrade Person Delete action fix sync error
+2020/05/21 14:10:30 -> author: Min.Hsieh , message: Upgrade Person Sync action update process
+2020/05/21 14:10:15 -> author: Min.Hsieh , message: Upgrade FRS Person Sync action update process
+2020/05/21 13:51:11 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/enroll_person_tag
+2020/05/21 13:50:57 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/05/21 13:48:21 -> author: Min.Hsieh , message: Upgrade Person Delete action
+2020/05/21 11:35:55 -> author: Min.Hsieh , message: Upgrade FRS Person Sync action
+2020/05/21 11:35:29 -> author: Min.Hsieh , message: Upgrade Person Sync action
+2020/05/21 10:46:35 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/enroll_person_tag
+2020/05/21 10:46:17 -> author: Min.Hsieh , message: Merge branch 'fix/10676' into develop
+2020/05/21 10:44:59 -> author: Min.Hsieh , message: Upgrade Person Sync action
+2020/05/21 10:44:47 -> author: Min.Hsieh , message: Upgrade FRS Person Sync action
+2020/05/20 18:20:09 -> author: Min.Hsieh , message: Upgrade Person model rename personId to edgeId
+2020/05/20 18:18:21 -> author: Min.Hsieh , message: Upgrade Report Person model rename customId to edgeId
+2020/05/20 15:49:47 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/enroll_person_tag
+2020/05/20 15:49:19 -> author: Min.Hsieh , message: Merge branch 'fix/10667' into develop
+2020/05/20 15:48:38 -> author: Min.Hsieh , message: Upgrade Report Person Summary cgi update start time and end time translate
+2020/05/20 15:48:30 -> author: Min.Hsieh , message: Upgrade Report Person cgi update start time and end time translate
+2020/05/20 08:51:25 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/enroll_person_tag
+2020/05/20 08:51:05 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v1.07.06
+2020/05/19 16:29:02 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/enroll_person_tag
+2020/05/19 16:28:23 -> author: Min.Hsieh , message: Upgrade Report Person Summary cgi update filter option
+2020/05/19 14:35:03 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/enroll_person_tag
+2020/05/19 14:34:46 -> author: Min.Hsieh , message: Merge branch 'feature/create_index' into develop
+2020/05/19 14:21:45 -> author: Min.Hsieh , message: Upgrade Create Index shell add report person summary model index
+2020/05/19 14:21:33 -> author: Min.Hsieh , message: Upgrade Create Index shell add report person model index
+2020/05/19 14:21:16 -> author: Min.Hsieh , message: Upgrade Create Index shell add report audit person staff summary model index
+2020/05/19 14:19:52 -> author: Min.Hsieh , message: Upgrade Create Index shell add report audit person staff model index
+2020/05/19 14:19:25 -> author: Min.Hsieh , message: Upgrade Create Index shell add person staff model index
+2020/05/19 14:19:07 -> author: Min.Hsieh , message: Upgrade Create Index shell add event model index
+2020/05/19 09:36:10 -> author: Min.Hsieh , message: Upgrade Expired Report service update initialization time
+2020/05/19 09:26:16 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/enroll_person_tag
+2020/05/19 09:25:25 -> author: Min.Hsieh , message: Upgrade Config cgi change path and auth
+2020/05/18 17:28:18 -> author: Min.Hsieh , message: Upgrade Person Tag cgi sync person group to source frs when create and delete
+2020/05/18 17:27:14 -> author: Min.Hsieh , message: Upgrade Person Tag cgi sync person group to fr engine when create and delete
+2020/05/18 16:21:12 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/enroll_person_tag
+2020/05/18 16:19:59 -> author: Min.Hsieh , message: Upgrade Person Staff cgi update get response personId
+2020/05/18 16:19:44 -> author: Min.Hsieh , message: Upgrade Person Staff Reject cgi update get response personId
+2020/05/18 16:01:35 -> author: Min.Hsieh , message: Upgrade Setting FRS service update sync person group
+2020/05/18 13:33:47 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/enroll_person_tag
+2020/05/18 13:28:51 -> author: Min.Hsieh , message: Upgrade Source FRS service remove unuse console
+2020/05/18 11:31:19 -> author: Min.Hsieh , message: Fix Bug 10654 - 檢視員工列表時僅使用Company當作搜尋條件時無法搜尋到任何員工資料
+2020/05/14 09:59:10 -> author: Min.Hsieh , message: Merge branch 'feature/update_server-service-edge_package' into develop
+2020/05/14 09:58:41 -> author: Min.Hsieh , message: Upgrade Source FRS helper add success log at maintain session
+2020/05/14 09:58:05 -> author: Min.Hsieh , message: Upgrade Source FRS helper add success log at login
+2020/05/14 09:13:56 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/05/13 14:25:26 -> author: Min.Hsieh , message: Merge branch 'feature/update_report_response_format' into develop
+2020/05/13 14:24:59 -> author: Min.Hsieh , message: Upgrade Report Person Summary cgi
+2020/05/13 14:24:52 -> author: Min.Hsieh , message: Upgrade Report Person cgi
+2020/05/13 14:24:34 -> author: Min.Hsieh , message: Upgrade Report Live Person cgi
+2020/05/13 14:24:17 -> author: Min.Hsieh , message: Upgrade Report Audit Person Staff Summary cgi
+2020/05/13 14:24:09 -> author: Min.Hsieh , message: Upgrade Report Audit Person Staff cgi
+2020/05/13 14:22:44 -> author: Min.Hsieh , message: Upgrade Response Report model
+2020/05/13 11:32:04 -> author: Min.Hsieh , message: Upgrade Config cgi remove update action
+2020/05/13 10:59:00 -> author: Min.Hsieh , message: Upgrade Utility DB helper update response access group when ta role
+2020/05/12 09:57:21 -> author: Min.Hsieh , message: v1.00.02
+2020/05/12 09:56:59 -> author: Min.Hsieh , message: Fix Bug 10579 - 新增帳號與許可證時顯示錯誤訊息
+2020/05/12 09:56:40 -> author: Min.Hsieh , message: Upgrade Server Change Log cgi fix file path
+2020/05/11 12:59:37 -> author: Min.Hsieh , message: v1.00.01
+2020/05/11 12:59:06 -> author: Min.Hsieh , message: Merge branch 'feature/add_server-service-edge_package' into develop
+2020/05/11 12:58:52 -> author: Min.Hsieh , message: Upgrade Setting FRS service update add person
+2020/05/11 12:04:04 -> author: Min.Hsieh , message: Upgrade FRS action cgi update delete person parameter
+2020/05/11 12:03:21 -> author: Min.Hsieh , message: Upgrade Source FRS Device cgi update get camera list parameter
+2020/05/11 12:02:01 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/05/09 05:11:12 -> author: Min.Hsieh , message: Merge branch 'feature/add_server-service-edge_package' into develop
+2020/05/09 05:10:05 -> author: Min.Hsieh , message: Upgrade Source FRS service fix get report paging error
+2020/05/09 04:15:21 -> author: Min.Hsieh , message: Upgrade Source FRS service update report interval start with
+2020/05/09 00:08:06 -> author: Min.Hsieh , message: Upgrade Person cgi
+2020/05/09 00:03:58 -> author: Min.Hsieh , message: Upgrade Person Staff Reject cgi
+2020/05/09 00:03:46 -> author: Min.Hsieh , message: Upgrade Person Staff cgi
+2020/05/09 00:02:40 -> author: Min.Hsieh , message: Upgrade Person action update source format
+2020/05/09 00:01:27 -> author: Min.Hsieh , message: Upgrade Person Delete action
+2020/05/09 00:00:51 -> author: Min.Hsieh , message: Upgrade Person Sync action
+2020/05/08 23:58:09 -> author: Min.Hsieh , message: Upgrade FRS Person Clear action
+2020/05/08 23:47:16 -> author: Min.Hsieh , message: Upgrade FRS Person Re Sync action
+2020/05/08 23:45:27 -> author: Min.Hsieh , message: Upgrade FRS Person Sync action
+2020/05/08 22:16:00 -> author: Min.Hsieh , message: Upgrade Source FRS helper update interface
+2020/05/08 21:21:34 -> author: Min.Hsieh , message: Upgrade Source FRS service
+2020/05/08 20:58:02 -> author: Min.Hsieh , message: Upgrade Report cgi update response source id to source name
+2020/05/08 20:50:30 -> author: Min.Hsieh , message: Upgrade Source FRS cgi
+2020/05/08 20:47:26 -> author: Min.Hsieh , message: Upgrade Source FRS Camera cgi add source name
+2020/05/08 20:30:58 -> author: Min.Hsieh , message: Upgrade Source FRS Device cgi update response
+2020/05/08 19:16:27 -> author: Min.Hsieh , message: Upgrade Setting FRS service update get session catch subject
+2020/05/08 19:14:32 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/05/08 18:14:37 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/05/08 18:01:16 -> author: Min.Hsieh , message: Upgrade Setting FRS Verify Face cgi
+2020/05/08 18:00:47 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/05/08 17:43:25 -> author: Min.Hsieh , message: Upgrade Setting FRS service
+2020/05/08 17:37:27 -> author: Min.Hsieh , message: Upgrade Setting FRS cgi
+2020/05/08 17:24:37 -> author: Min.Hsieh , message: Upgrade Server Service Edge package
+2020/05/08 16:39:13 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/add_server-service-edge_package
+2020/05/08 16:38:13 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v1.07.05
+2020/05/08 13:41:00 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/add_server-service-edge_package
+2020/05/08 13:40:47 -> author: Min.Hsieh , message: Upgrade User Web Login cgi fix maintain session
+2020/05/08 11:15:39 -> author: Min.Hsieh , message: Add Server Service Edge package
+2020/05/08 10:05:08 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/add_server-service-edge_package
+2020/05/08 10:04:40 -> author: Min.Hsieh , message: Upgrade Report Live cgi update permission when user was ta
+2020/05/08 10:04:28 -> author: Min.Hsieh , message: Upgrade Report Person Summary cgi update permission when user was ta
+2020/05/08 10:04:18 -> author: Min.Hsieh , message: Upgrade Report Person cgi update permission when user was ta
+2020/05/07 15:32:11 -> author: Min.Hsieh , message: Merge branch 'develop' into feature/add_server-service-edge_package
+2020/05/07 15:31:34 -> author: Min.Hsieh , message: Upgrade Model File helper update constructor can input src
+2020/05/07 14:22:01 -> author: Min.Hsieh , message: Upgrade models add source name in camera and report
+2020/05/05 18:23:54 -> author: Min.Hsieh , message: Add Setting System TAC cgi
+2020/05/05 18:22:28 -> author: Min.Hsieh , message: Add Create Default TAC File shell
+2020/05/05 17:30:34 -> author: Min.Hsieh , message: Upgrade Model File helper update to orignal mongodb object
+2020/05/05 09:16:04 -> author: Min.Hsieh , message: Add License Source FRS Camera service
+2020/05/04 17:54:49 -> author: Min.Hsieh , message: Upgrade Setting Map cgi update get permission
+2020/05/04 17:49:11 -> author: Min.Hsieh , message: Upgrade FRS Person Sync action add api
+2020/05/04 17:48:48 -> author: Min.Hsieh , message: Upgrade FRS Person Clear action add api
+2020/05/04 14:48:03 -> author: Min.Hsieh , message: Add Report Audit Person Staff cgi
+2020/05/04 14:44:59 -> author: Min.Hsieh , message: Add Report Audit Person Staff Summay cgi
+2020/05/04 14:12:50 -> author: Min.Hsieh , message: Upgrade Expired Person Staff service add audit summary
+2020/05/04 11:59:30 -> author: Min.Hsieh , message: Add Expired Report Audit Person Staff Summary service
+2020/05/04 11:51:40 -> author: Min.Hsieh , message: Add Expired Person Staff service
+2020/04/30 19:49:27 -> author: Min.Hsieh , message: Add Expired Report Audit Person Staff service
+2020/04/30 19:45:16 -> author: Min.Hsieh , message: Rename Report Person Notify to Report Live Person
+2020/04/30 19:17:21 -> author: Min.Hsieh , message: Add Expired Report Person service
+2020/04/30 19:13:13 -> author: Min.Hsieh , message: Add Expired Report Person Summary service
+2020/04/30 19:10:29 -> author: Min.Hsieh , message: Add Expired Report Person Notify service
+2020/04/30 17:30:08 -> author: Min.Hsieh , message: Upgrade Source FRS service fix set date fail
+2020/04/30 16:57:52 -> author: Min.Hsieh , message: Add Report Person Notify cgi
+2020/04/30 16:31:25 -> author: Min.Hsieh , message: Upgrade Report Person Summary cgi update align start time and end time
+2020/04/30 16:31:15 -> author: Min.Hsieh , message: Upgrade Report Person cgi update align start time and end time
+2020/04/30 16:28:18 -> author: Min.Hsieh , message: Upgrade Source FRS service fix report summary person tag name set value error
+2020/04/30 15:58:04 -> author: Min.Hsieh , message: Upgrade Report Person cgi fix response status error
+2020/04/30 15:44:00 -> author: Min.Hsieh , message: Upgrade Source FRS service update set report search multi person
+2020/04/30 13:56:19 -> author: Min.Hsieh , message: Upgrade Report Person Summary cgi add personId filter
+2020/04/30 13:56:06 -> author: Min.Hsieh , message: Upgrade Report Person cgi add personId filter
+2020/04/30 13:47:44 -> author: Min.Hsieh , message: Upgrade Report Person Summary cgi add role filter
+2020/04/30 13:47:35 -> author: Min.Hsieh , message: Upgrade Report Person cgi add role filter
+2020/04/30 11:58:16 -> author: Min.Hsieh , message: Add Server Change Log cgi
+2020/04/29 18:57:00 -> author: Min.Hsieh , message: Add Report Person Summary cgi
+2020/04/29 18:44:05 -> author: Min.Hsieh , message: Add Report Person cgi
+2020/04/29 17:53:14 -> author: Min.Hsieh , message: Upgrade Source FRS service add save report and report summary
+2020/04/28 17:17:57 -> author: Min.Hsieh , message: Upgrade Person Staff cgi fix error when charges was null
+2020/04/28 15:01:52 -> author: Min.Hsieh , message: Upgrade Access Group cgi add notice when area was update
+2020/04/27 11:50:08 -> author: Min.Hsieh , message: Upgrade Person Staff cgi update chargeId to option
+2020/04/27 11:24:51 -> author: Min.Hsieh , message: Upgrade User cgi update object id to info id
+2020/04/27 09:49:24 -> author: Min.Hsieh , message: Upgrade Setting FRS and Source FRS service add ready$
+2020/04/27 09:17:45 -> author: Min.Hsieh , message: Upgrade Person Sync action add retry when sync fail
+2020/04/27 09:02:04 -> author: Min.Hsieh , message: Upgrade Save Event system add count attr
+2020/04/27 09:01:41 -> author: Min.Hsieh , message: Upgrade Event model
+2020/04/24 15:07:22 -> author: Min.Hsieh , message: Add Person Staff Enroll cgi
+2020/04/24 14:51:26 -> author: Min.Hsieh , message: Add Person Staff cgi
+2020/04/23 16:17:18 -> author: Min.Hsieh , message: Upgrade FRS helper fix verify face highest score get error
+2020/04/23 10:26:13 -> author: Min.Hsieh , message: Upgrade FRS Source FRS helper update try do
+2020/04/23 10:25:47 -> author: Min.Hsieh , message: Upgrade FRS helper update exception message
+2020/04/23 09:42:28 -> author: Min.Hsieh , message: Add Person Staff Reject cgi
+2020/04/22 17:50:03 -> author: Min.Hsieh , message: Upgrade Setting FRS service update person check when recognize
+2020/04/22 17:46:22 -> author: Min.Hsieh , message: Add Person Sync and Person Delete action
+2020/04/22 17:39:17 -> author: Min.Hsieh , message: Add Person Staff and Person Staff Reject model
+2020/04/22 17:36:04 -> author: Min.Hsieh , message: Upgrade Default Person Group enum
+2020/04/22 17:35:30 -> author: Min.Hsieh , message: Upgrade models update validate attr type
+2020/04/21 11:42:47 -> author: Min.Hsieh , message: Add Acs Card service
+2020/04/21 11:42:00 -> author: Min.Hsieh , message: Add Model Mong Data helper
+2020/04/21 11:07:57 -> author: Min.Hsieh , message: Upgrade Setting ACS model remove staff card mode attr
+2020/04/20 13:30:18 -> author: Min.Hsieh , message: Upgrade Source FRS Camera Detail cgi update filter option in get
+2020/04/17 15:48:10 -> author: Min.Hsieh , message: Upgrade User Web cgi add access groups in create and update
+2020/04/17 15:41:37 -> author: Min.Hsieh , message: Upgrade Access Group cgi fix error in get list
+2020/04/17 14:58:30 -> author: Min.Hsieh , message: frameworkversion MinExpansion_v1.07.04
+2020/04/17 14:10:13 -> author: Min.Hsieh , message: Upgrade User Web Login cgi add response access groups
+2020/04/17 14:02:57 -> author: Min.Hsieh , message: Upgrade User Info model add access groups
+2020/04/17 11:20:51 -> author: Min.Hsieh , message: Upgrade Access Group model update remark to option
+2020/04/17 11:09:21 -> author: Min.Hsieh , message: Upgrade helper reference
+2020/04/17 11:08:53 -> author: Min.Hsieh , message: Add Server Service Email package
+2020/04/17 10:01:05 -> author: Min.Hsieh , message: Upgrade Service Regex package
+2020/04/16 10:15:09 -> author: Min.Hsieh , message: Add Event cgi
+2020/04/16 10:09:35 -> author: Min.Hsieh , message: Add Source FRS Camera Detail cgi
+2020/04/16 10:08:59 -> author: Min.Hsieh , message: Upgrade License system add get status and get blance
+2020/04/16 10:08:38 -> author: Min.Hsieh , message: Upgrade Source FRS Camera cgi add floor filter in get
+2020/04/15 15:29:57 -> author: Min.Hsieh , message: Upgrade Access Area cgi add building filter in get
+2020/04/15 15:16:34 -> author: Min.Hsieh , message: Add Access Area Detail cgi
+2020/04/15 15:16:11 -> author: Min.Hsieh , message: Upgrade Access Area cgi add binding camera
+2020/04/15 09:44:20 -> author: Min.Hsieh , message: Upgrade project fix name error
+2020/04/14 16:39:24 -> author: Min.Hsieh , message: Add Source FRS Camera cgi
+2020/04/14 13:31:15 -> author: Min.Hsieh , message: Upgrade Access Area cgi add groupid filter at get list
+2020/04/14 11:57:54 -> author: Min.Hsieh , message: Add Access Group cgi
+2020/04/14 11:29:26 -> author: Min.Hsieh , message: Upgrade Access Area cgi update get error message
+2020/04/14 11:21:24 -> author: Min.Hsieh , message: Upgrade Source FRS cgi remove port keyword
+2020/04/13 18:04:10 -> author: Min.Hsieh , message: Add Access Area cgi
+2020/04/13 18:03:20 -> author: Min.Hsieh , message: Upgrade Response model add building floor interface
+2020/04/13 17:50:01 -> author: Min.Hsieh , message: Upgrade User Web cgi fix get list permission error
+2020/04/13 17:49:35 -> author: Min.Hsieh , message: Upgrade User Web cgi update get list
+2020/04/13 17:43:55 -> author: Min.Hsieh , message: Upgrade Location Company cgi update get list
+2020/04/13 17:32:36 -> author: Min.Hsieh , message: Upgrade Default config add generator example file
+2020/04/13 17:31:17 -> author: Min.Hsieh , message: frameworkversion v1.07.04
+2020/04/13 16:08:01 -> author: Min.Hsieh , message: Upgrade Location Floor cgi update get list
+2020/04/13 16:04:47 -> author: Min.Hsieh , message: Upgrade Model helper add get key value object
+2020/04/10 17:49:15 -> author: Min.Hsieh , message: Upgrade FRS helper add timeout
+2020/04/10 16:38:42 -> author: Min.Hsieh , message: Upgrade Location Company cgi add get query function
+2020/04/10 09:47:58 -> author: Min.Hsieh , message: Add FRS Person actions
+2020/04/09 18:08:21 -> author: Min.Hsieh , message: Add Source FRS service
+2020/04/09 17:34:34 -> author: Min.Hsieh , message: Add Source FRS Device cgi
+2020/04/09 17:29:48 -> author: Min.Hsieh , message: Add Source FRS cgi
+2020/04/09 16:11:00 -> author: Min.Hsieh , message: Add Person Tag cgi
+2020/04/09 16:09:26 -> author: Min.Hsieh , message: Upgrade Service Regex package
+2020/04/08 14:47:23 -> author: Min.Hsieh , message: Add License system
+2020/04/08 14:46:51 -> author: Min.Hsieh , message: Add License enum
+2020/04/08 11:37:23 -> author: Min.Hsieh , message: Upgrade Datetime helper
+2020/04/08 09:12:25 -> author: Min.Hsieh , message: Upgrade Setting Face Recognition model
+2020/04/07 18:13:36 -> author: Min.Hsieh , message: Upgrade Setting Map cgi
+2020/04/07 18:13:23 -> author: Min.Hsieh , message: Upgrade Setting System cgi
+2020/04/07 18:03:19 -> author: Min.Hsieh , message: Add Setting Expired cgi
+2020/04/07 17:44:51 -> author: Min.Hsieh , message: Add Setting Email cgi
+2020/04/07 17:32:41 -> author: Min.Hsieh , message: Upgrade Email relate add ssl attr in config
+2020/04/07 17:31:03 -> author: Min.Hsieh , message: Upgrade Email helper add ssl config and update config check
+2020/04/07 17:28:44 -> author: Min.Hsieh , message: Upgrade Setting FRS model update attr check
+2020/04/07 17:27:53 -> author: Min.Hsieh , message: Upgrade FRS helper update config check
+2020/04/07 15:26:01 -> author: Min.Hsieh , message: Add Setting ACS cgi
+2020/04/07 14:27:29 -> author: Min.Hsieh , message: Add Setting FRS cgi
+2020/04/07 13:50:33 -> author: Min.Hsieh , message: Add Setting Face Recognition cgi
+2020/04/07 11:19:05 -> author: Min.Hsieh , message: Upgrade Data Center system update function permission
+2020/04/06 11:15:46 -> author: Min.Hsieh , message: Upgrade RxJs update zip next to concatmap
+2020/04/06 10:30:37 -> author: Min.Hsieh , message: Upgrade Location Floor cgi update get permission
+2020/04/01 17:13:03 -> author: Min.Hsieh , message: Upgrade FRS helper
+2020/04/01 13:22:52 -> author: Min.Hsieh , message: Upgrade User Web Login cgi update response format
+2020/04/01 11:07:54 -> author: Min.Hsieh , message: Upgrade Location Company Detail cgi delete console
+2020/04/01 10:52:30 -> author: Min.Hsieh , message: Upgrade User Web cgi update create request parameter
+2020/04/01 10:52:03 -> author: Min.Hsieh , message: Upgrade User Web Login fix error when floors was null
+2020/04/01 10:39:30 -> author: Min.Hsieh , message: Add Location Company cgi
+2020/04/01 09:58:31 -> author: Min.Hsieh , message: Upgrade cgis update db notify subject
+2020/03/31 17:19:53 -> author: Min.Hsieh , message: Upgrade Location Floor cgi update include key value object format
+2020/03/31 17:19:29 -> author: Min.Hsieh , message: Upgrade User Web cgi update include key value object format
+2020/03/31 14:04:09 -> author: Min.Hsieh , message: Add Location Floor cgi
+2020/03/31 11:19:06 -> author: Min.Hsieh , message: Add Location Building cgi
+2020/03/31 09:58:29 -> author: Min.Hsieh , message: Add Service Regex package
+2020/03/31 09:31:43 -> author: Min.Hsieh , message: Add User cgi
+2020/03/30 16:33:42 -> author: Min.Hsieh , message: init
