@@ -1,0 +1,31 @@
+{
+    "short_name": "Web X Demo",
+    "name": "Web X Demo: For Demo",
+    "description": "Web X Demo",
+    "icons": [
+        {
+            "src": "./logo-pwa-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./logo-pwa-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "./",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "./",
+    "theme_color": "#3367D6",
+    "shortcuts": [
+        {
+            "name": "How's weather today?",
+            "short_name": "Today",
+            "description": "View weather information for today",
+            "url": "./today?source=pwa",
+            "icons": [{ "src": "./logo-pwa-192x192.png", "sizes": "192x192" }]
+        }
+    ]
+}
