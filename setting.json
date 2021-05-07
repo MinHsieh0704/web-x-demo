@@ -6,5 +6,7 @@
         "filename": "logo.png",
         "title": "Web X Demo"
     },
-    "copyright": "copyright © Advantech Solution 2021"
+    "copyright": "copyright © Advantech Solution 2021",
+    "showPageName": true,
+    "showI18nKey": true
 }
