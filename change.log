@@ -1,3 +1,56 @@
+2021/07/13 14:51:38 -> author: Tina.Lin  , message: v1.00.12
+2021/07/13 14:49:42 -> author: Tina.Lin  , message: frameworkversion v1.00.17
+2021/07/13 14:41:22 -> author: Tina.Lin  , message: Merge branch 'feature/emap' into develop
+2021/07/13 14:11:40 -> author: Tina.Lin  , message: Update | demo emap | update emap demo
+2021/07/13 14:11:18 -> author: Tina.Lin  , message: Update | i18n | add emap related content
+2021/07/13 14:01:21 -> author: Tina.Lin  , message: Update | componente emap | 1.sort out code and files  2. update data structure 3. update component
+2021/06/29 10:11:30 -> author: Tina.Lin  , message: Update | bridle | add import UserMessage
+2021/06/28 09:33:25 -> author: Tina.Lin  , message: v1.00.11
+2021/06/28 09:33:02 -> author: Tina.Lin  , message: frameworkversion v1.00.15
+2021/06/28 09:06:06 -> author: Tina.Lin  , message: v1.00.10
+2021/06/28 09:03:06 -> author: Tina.Lin  , message: frameworkversion v1.00.14
+2021/06/25 18:21:43 -> author: Tina.Lin  , message: Merge branch 'feature/emap' into develop
+2021/06/25 18:20:48 -> author: Tina.Lin  , message: Update | component e-map | sort out code
+2021/06/25 18:13:26 -> author: Tina.Lin  , message: Update | device-list-source | sort out code
+2021/06/25 18:12:50 -> author: Tina.Lin  , message: Update | image-box-source | sort out code
+2021/06/25 17:53:55 -> author: Tina.Lin  , message: Update | component e-map index | add export interface
+2021/06/25 17:51:29 -> author: Tina.Lin  , message: Update | models enums | remove unused code
+2021/06/25 17:49:55 -> author: Tina.Lin  , message: Update | device-list-source | sort out code
+2021/06/25 17:34:07 -> author: Tina.Lin  , message: Update | emap-item | sort out code
+2021/06/25 17:04:23 -> author: Tina.Lin  , message: Updaet | i18n
+2021/06/25 17:04:11 -> author: Tina.Lin  , message: Update | image-box-source | update click device on the map have aperture
+2021/06/25 16:25:25 -> author: Tina.Lin  , message: Update | device-list-source | update click focus device will open device list
+2021/06/25 16:24:31 -> author: Tina.Lin  , message: Update | component e-map | remove unused code
+2021/06/25 15:45:45 -> author: Tina.Lin  , message: Update | image-box-source | 1. update eamp device UI   2. remove no unused code
+2021/06/25 15:44:10 -> author: Tina.Lin  , message: Update | device-list-source | update device list UI
+2021/06/25 15:43:03 -> author: Tina.Lin  , message: Update | models emap-items | update new source type track
+2021/06/25 15:39:06 -> author: Tina.Lin  , message: Update | component e-map index | remove unused code
+2021/06/25 15:35:33 -> author: Tina.Lin  , message: Update | models interface / iviews emap | remove unused code
+2021/06/25 15:33:06 -> author: Tina.Lin  , message: Update | models enums | add new enums track
+2021/06/25 15:32:25 -> author: Tina.Lin  , message: Update | device-source-track.svg | update icon image
+2021/06/25 15:30:32 -> author: Tina.Lin  , message: Update | views emap | update 1. show emap function  2.add edit and view emap demo
+2021/06/25 15:29:12 -> author: Tina.Lin  , message: Update | models emap | update fake data
+2021/06/25 10:54:26 -> author: Tina.Lin  , message: Update | models emap | add fake data
+2021/06/24 18:24:31 -> author: Tina.Lin  , message: Add | components emap | doing emap
+2021/06/24 18:23:06 -> author: Tina.Lin  , message: Update | i18n | add emap related content
+2021/06/24 18:19:55 -> author: Tina.Lin  , message: Add | views emap demo | add emap demo related files
+2021/06/24 18:18:24 -> author: Tina.Lin  , message: Update | path / router / nav / home | add emap related content
+2021/06/23 15:05:32 -> author: Tina.Lin  , message: frameworkversion v1.00.13
+2021/06/23 14:31:53 -> author: Tina.Lin  , message: Update | i18n | update typesetting format
+2021/06/23 14:15:19 -> author: Tina.Lin  , message: Update | i18n | update password rule
+2021/06/16 15:57:50 -> author: Tina.Lin  , message: v1.00.09
+2021/06/16 15:57:14 -> author: Tina.Lin  , message: frameworkversion v1.00.12
+2021/06/16 15:56:42 -> author: Tina.Lin  , message: Update | packake.json | update @advantech/web-x-component-roi 1.0.4
+2021/06/16 15:10:07 -> author: Tina.Lin  , message: Update | i18n | unite use should be and x to xxx
+2021/06/16 15:01:05 -> author: Tina.Lin  , message: Update | nav | update empty to the project name
+2021/06/16 15:00:55 -> author: Tina.Lin  , message: Update | nav | sort out code
+2021/06/16 15:00:36 -> author: Tina.Lin  , message: Update | nav | click refresh on the same page
+2021/06/16 14:59:56 -> author: Tina.Lin  , message: Update | nav | update keep only one child opened at a time
+2021/05/19 11:05:23 -> author: 7070587   , message: Update | image | 1.add demo form-image-multiple  2.sort out code
+2021/05/17 18:10:34 -> author: 7070587   , message: Update | image | add component demo image-multiple
+2021/05/17 18:09:52 -> author: 7070587   , message: Update | i18n | add image related content
+2021/05/17 10:38:08 -> author: 7070587   , message: Update | image | add new demo - large cropper
+2021/05/17 09:51:31 -> author: Min.Hsieh , message: Reinstall @advantech/web-x-component-roi package
 2021/05/07 09:05:45 -> author: Tina.Lin  , message: v1.00.08
 2021/05/07 09:00:37 -> author: Tina.Liang, message: Update | README.md
 2021/05/07 08:52:20 -> author: Tina.Liang, message: Update | i18n | enroll
