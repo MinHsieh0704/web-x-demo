@@ -8,5 +8,6 @@
     },
     "copyright": "copyright © Advantech Solution 2021",
     "showPageName": true,
-    "showI18nKey": true
+    "showI18nKey": true,
+    "i18nMode": ""
 }
